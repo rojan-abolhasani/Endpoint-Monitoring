@@ -1,0 +1,4 @@
+GET  http://127.0.0.1:8080/api/warnings
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzQ3NzQ2NzcsImlkIjoyfQ.zrYjLH4fW_hd-7l-OCvswv-r0HUEh5NFoXWEQB6Y15s
+

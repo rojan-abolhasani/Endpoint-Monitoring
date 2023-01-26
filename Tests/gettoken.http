@@ -1,0 +1,7 @@
+GET http://127.0.0.1:8080/api/token 
+Content-Type: application/json
+
+{
+    "user_id" : 2,
+    "password" : "r1341nkfnEk@"
+}

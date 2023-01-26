@@ -39,6 +39,6 @@ const IdleTimeOut = time.Second * 30
 
 //update config
 
-const WaitDuration = time.Minute * 10
+const WaitDuration = time.Second * 10
 
 const TokenDuration = time.Hour * 2
