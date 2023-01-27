@@ -2,4 +2,16 @@
 
 This project is written in go with RESTful API.
 
-Note : Build project using `go build main.go`
+Note : tun the project using `go run main.go`
+
+## Database
+
+####User
+| UserName  | PasswWord | CreatedAt | 
+| :-------- | --------- | ----------|
+| string    | string    | string    |
+
+####Link
+| LinkID  | Url       | ThreshHold | CreatedAt | Method | Failure
+| :------ | --------- | -----------| --------- | -------| -------
+| int64   | string    | int        | string    | string | int
