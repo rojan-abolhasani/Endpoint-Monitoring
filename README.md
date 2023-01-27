@@ -34,5 +34,32 @@ Authorization is with JWT.
 
 #### User endpoints:
 
+**Sign Up:**
+
+`POST /api/register/user`
+
+request structure 
+
+```
+{
+	"user_name":"foo", // length >= 5
+	"password":"*bar*" // alpha numeric with one character, length >= 10
+}
+```
+
+**Adding Link:**
+
+`POST /api/register/link`
+
+request structure 
+
+```
+{
+	"url":"https://google.com",
+	"thresh_hold": 5 , // just an exmaple
+  "method" : GET // only 3 methods were allowed
+}
+```
+
 
 
