@@ -2,7 +2,7 @@
 
 This project is written in go with RESTful API.
 
-Note : tun the project using `go run main.go`
+Note : run the project using `go run main.go`
 
 ## Database
 
