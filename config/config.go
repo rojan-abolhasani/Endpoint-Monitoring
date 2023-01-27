@@ -23,7 +23,7 @@ var DbOptions = redis.Options{
 }
 
 // our api reference for people to refer to
-const Help = "anthing"
+const Help = "https://github.com/rojan-abolhasani/Endpoint-Monitoring/blob/master/README.md"
 
 // link config
 const MaxNumLink = 20
