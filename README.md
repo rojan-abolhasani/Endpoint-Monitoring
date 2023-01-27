@@ -50,6 +50,7 @@ request structure
 **Adding Link:**
 
 `POST /api/register/link`
+(Authorization with token in header)
 
 request structure 
 
@@ -57,9 +58,52 @@ request structure
 {
 	"url":"https://google.com",
 	"thresh_hold": 5 , // just an exmaple
-  "method" : GET // only 3 methods were allowed
+  	"method" : GET // only 3 methods were allowed
 }
 ```
+
+**Get Link:**
+
+`GET /api/link`
+(Authorization with token in header)
+
+request structure 
+
+```
+{
+	"link_id":2 // exmaple
+}
+```
+
+**Get All Links:**
+
+`GET /api/links`
+(Authorization with token in header)
+
+No body is needed here
+
+
+**Get Token:**
+
+`GET /api/token `
+
+request structure 
+
+```
+{
+	"user_id":2, //example
+	"password": "*bar*" 
+}	
+```
+
+**Warnings:**
+
+`GET /api/warnings`
+(Authorization with token in header)
+
+No body is needed here
+
+
 
 
 
