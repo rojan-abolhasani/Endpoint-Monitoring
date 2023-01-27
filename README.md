@@ -47,7 +47,7 @@ request structure
 }
 ```
 
-**Adding Link:**
+**Add Link:**
 
 `POST /api/register/link`
 (Authorization with token in header)
@@ -102,6 +102,52 @@ request structure
 (Authorization with token in header)
 
 No body is needed here
+
+
+#### Responses:
+
+##### Error Response:
+```
+{
+	status : string 
+	error_msg : string 
+	help : string 
+}	
+```
+
+##### Sign-Up Response:
+```
+{
+	status : string 
+	user_id : int64 
+}	
+```
+
+##### Add Link Response:
+```
+{
+	status : string 
+	link_id : int64 
+}	
+```
+
+##### Token Response:
+```
+{
+	status : string 
+	exp_date : string 
+	token : string 
+}	
+```
+
+##### Add Link Response:
+```
+{
+	Link
+	requests []Request 
+}	
+```
+
 
 
 
